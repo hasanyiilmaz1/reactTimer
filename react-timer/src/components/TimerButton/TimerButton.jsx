@@ -12,5 +12,9 @@ TimerButton.propTypes = {
   buttonAction: PropTypes.func.isRequired,
   buttonValue: PropTypes.string.isRequired,
 };
+TimerButton.propTypes = {
+  buttonAction: PropTypes.func.isRequired,
+  buttonValue: PropTypes.string.isRequired,
+};
 
 export default TimerButton;
