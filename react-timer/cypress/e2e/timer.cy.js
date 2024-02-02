@@ -1,3 +1,4 @@
+
 describe('Start and Stop', () => {
   beforeEach('sunucu run', () => {
     cy.visit('http://localhost:3000')   
@@ -24,6 +25,12 @@ describe('Start and Stop', () => {
     cy.contains('Reset').click()
     cy.screenshot('Reset')
     cy.get('[data-testid="gosterge"]').should('have.text', '25:00')
+    cy.get("test").click()
+    cy.get("test").click()
+    cy.get("test").click()
+    cy.get("test").click()
+    
+    
    
   })
   
